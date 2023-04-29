@@ -14,6 +14,7 @@
         table{
             border-collapse: collapse;
             width: 300px;
+            height: 300px;
         }
         td{
             border: 1px solid black;
@@ -25,6 +26,18 @@
             padding: 10px;
             text-align: center;
             background-color: gray;
+            color: white;
+        }
+        th.diferente{
+            background-color: rgb(179, 176, 176);
+            color: black;
+        }
+        th.tamanho{
+            height: 5px;
+        }
+        td.intervalo{
+            height: 5px;
+            background-color: lightgray;
         }
     </style>
 
@@ -45,10 +58,10 @@
             <th>Sexta</th>
         </tr>
         <tr>
-            <th colspan="7">Manhã</th>
+            <th class="diferente" colspan="7">Manhã</th>
         </tr>
         <tr>
-            <th>M1</th>
+            <th class="tamanho">M1</th>
             <td>7:30 - 8:20</td>
             <td></td>
             <td></td>
@@ -57,7 +70,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>M2</th>
+            <th class="tamanho">M2</th>
             <td>8:20 - 9:10</td>
             <td></td>
             <td></td>
@@ -66,7 +79,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>M3</th>
+            <th class="tamanho">M3</th>
             <td>9:10 - 10:00</td>
             <td></td>
             <td></td>
@@ -75,10 +88,10 @@
             <td></td>
         </tr>
         <tr>
-            <td colspan="7">Intervalo</td>
+            <td class="intervalo" colspan="7">Intervalo</td>
         </tr>
         <tr>
-            <th>M4</th>
+            <th class="tamanho">M4</th>
             <td>10:20 - 11:10</td>
             <td></td>
             <td></td>
@@ -87,7 +100,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>M5</th>
+            <th class="tamanho">M5</th>
             <td>11:10 - 12:00</td>
             <td></td>
             <td></td>
@@ -96,10 +109,10 @@
             <td></td>
         </tr>
         <tr>
-            <th colspan="7">Tarde</th>
+            <th class="diferente" colspan="7">Tarde</th>
         </tr> 
         <tr>
-            <th>T1</th>
+            <th class="tamanho">T1</th>
             <td>13:00 - 13:50</td>
             <td></td>
             <td></td>
@@ -108,7 +121,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>T2</th>
+            <th class="tamanho">T2</th>
             <td>13:50 - 14:40</td>
             <td></td>
             <td></td>
@@ -117,7 +130,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>T3</th>
+            <th class="tamanho">T3</th>
             <td>14:40 - 15:30</td>
             <td></td>
             <td></td>
@@ -126,10 +139,10 @@
             <td></td>
         </tr>
         <tr>
-            <td colspan="7">Intervalo</td>
+            <td class="intervalo" colspan="7">Intervalo</td>
         </tr>
         <tr>
-            <th>T4</th>
+            <th class="tamanho">T4</th>
             <td>15:50 - 16:40</td>
             <td></td>
             <td></td>
@@ -138,7 +151,7 @@
             <td></td>
         </tr>
         <tr>
-            <th>T5</th>
+            <th class="tamanho">T5</th>
             <td>16:40 - 17:30</td>
             <td></td>
             <td></td>
